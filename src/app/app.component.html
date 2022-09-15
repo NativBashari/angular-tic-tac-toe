@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center">
+    <span class="display-4">Turn is: {{gameService.activePlayer}}</span>
+</div>
+<app-game-board></app-game-board>
+<div class="d-flex justify-content-center">
+    <span class="display-4">winner is: {{gameService.currentWinner}}</span>
+</div>
+<div class="d-flex justify-content-center">
+    <button (click)="gameService.newGame()">Restart Game</button>
+</div>

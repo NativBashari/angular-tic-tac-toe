@@ -1,0 +1,19 @@
+.game-square { 
+    height: 150px; 
+    text-align: center;
+    line-height: 0.85;
+    cursor: pointer;
+    background: aliceblue;
+    margin: 5px;
+  }
+
+  p { 
+    display: inline;
+    margin: 0px;
+    font-size: 10rem;
+    overflow: hidden;
+  }
+
+  .noClick {
+    pointer-events: none;
+  }
